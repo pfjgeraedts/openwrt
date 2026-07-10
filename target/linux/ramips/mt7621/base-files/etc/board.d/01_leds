@@ -282,6 +282,10 @@ z-router,zr-2662)
 	ucidef_set_led_netdev "wan" "wan" "green:wan" "wan" "link tx rx"
 	ucidef_set_led_netdev "wan-off" "wan-off" "red:wan" "wan" "link"
 	;;
+zte,mf286c3-a|\
+zte,mf286c3-b)
+	ucidef_set_led_netdev "3g4g" "3G/4G" "blue:mobile" "wwan0" "link tx rx"
+	;;
 zyxel,lte3301-plus)
 	ucidef_set_led_netdev "internet" "internet" "white:internet" "wwan0"
 	;;
